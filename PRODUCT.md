@@ -21,7 +21,7 @@ delegated: plain static HTML, CSS and a small amount of JavaScript, as specified
 案例资产存放在 `Bobby_VIGOR瑜伽垫_20260920/`。课程是可在本地预览、适合 GitHub Pages 的静态文件；不连接外部生成 API。公开部署状态以验收记录为准。
 
 ## Capabilities and Constraints
-- 展示两条本地影片，支持手动播放，不自动播放。
+- 展示三条完整本地影片：无牌旧案、VIGOR 生成片、V2 修订版；支持手动播放，不自动播放。
 - 展示至少三组基于真实项目图片的对照，并支持放大查看。
 - 以五步教程说明流程，包含来源和证据边界。
 - VIGOR 183 × 61 × 1.5 cm 与四色是 2026-09-22 项目核对记录，不代表当前库存或价格。
@@ -32,7 +32,7 @@ delegated: plain static HTML, CSS and a small amount of JavaScript, as specified
 - 完整人工试听未完成；播放可启动不等于完整视听验收。
 
 ## Evidence on Hand
-项目原始视频、V2 成片、剪辑前后规格对比、人物六格、场景图、产品外观参考、比例线稿、成片抽帧，以及对应制作说明和导出验证记录。源文件保持原位。
+无牌旧案的 87.583 秒完整成片、VIGOR 原始视频与 V2 成片、剪辑前后规格对比、人物六格、场景图、产品外观参考、比例线稿、成片抽帧，以及对应制作说明和导出验证记录。源文件保持原位。
 
 ## Product Principles
 1. 先讲事实和来源，再讲画面效果。
@@ -47,5 +47,5 @@ delegated: plain static HTML, CSS and a small amount of JavaScript, as specified
 ## 课程结构
 - index.html：免费课程目录，说明第零章与第一章各自教授的内容，并提供直接进入第一章的入口。
 - chapter-0.html：人物两视图、三栏和六格参考图；大脸肖像作用；服装版本管理；提示词、失败检查与 manifest 登记。
-- chapter-1.html：以商品短片问题为开场，保留 Bobby × VIGOR 两条影片、对照、五步流程和检查表。两章均为免费公开版本，不设付费墙，也不暗示未制作的后续课程。
+- chapter-1.html：以商品短片问题为开场，呈现无牌旧案与 VIGOR 两个 SKU 的三条影片、对照、五步流程和检查表。两章均为免费公开版本，不设付费墙，也不暗示未制作的后续课程。
 - Alex 旧版候选仅为本课程示例，角色状态维持 draft。

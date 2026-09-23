@@ -1,6 +1,6 @@
 # Bobby × VIGOR 教程 Landing Page
 
-本目录是一份已公开的静态中文教程。线上入口：[learn.cj-chan.work](https://learn.cj-chan.work/)；源代码：[GitHub 公开仓库](https://github.com/CJchan09/cj-digital-human-product-video-course)。网站分为三页：`index.html` 是课程目录，`chapter-0.html` 独立讲人物参考图资产，`chapter-1.html` 直接从商品短片主视觉开始，完整保留 Bobby × VIGOR 两条案例影片、照片对照和五步流程。本地预览服务器只监听回环地址；GitHub Pages 与自定义子域名的发布验收见 `01_本地验收记录.md`。本目录未附开放素材再利用许可；公开仓库展示授权仅限当前课程页面。
+本目录是一份已公开的静态中文教程。线上入口：[learn.cj-chan.work](https://learn.cj-chan.work/)；源代码：[GitHub 公开仓库](https://github.com/CJchan09/cj-digital-human-product-video-course)。网站分为三页：`index.html` 是课程目录，`chapter-0.html` 独立讲人物参考图资产，`chapter-1.html` 直接从商品短片主视觉开始，按无牌旧案、VIGOR 生成片、V2 修订版展示三条完整影片，并保留照片对照和五步流程。无牌旧案与后两片属于不同 SKU。本地预览服务器只监听回环地址；GitHub Pages 与自定义子域名的发布验收见 `01_本地验收记录.md`。本目录未附开放素材再利用许可；公开仓库展示授权仅限当前课程页面。
 
 ## 本地预览
 
