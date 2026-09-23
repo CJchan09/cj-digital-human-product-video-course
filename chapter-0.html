@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123b34">
+  <meta name="description" content="免费课程第零章：学习两视图、三栏、六格人物参考图，保存提示词并检查可复用资产。">
+  <title>第零章｜人物参考图做成可复用资产</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <div class="local-banner"><span class="local-dot" aria-hidden="true"></span>免费公开课程 · Bobby × VIGOR 制作案例</div>
+  <header class="site-header">
+    <a class="wordmark" href="index.html" aria-label="返回课程目录"><span class="wordmark-mark" aria-hidden="true">B<span>/</span>V</span><span class="wordmark-copy">制作记录<strong>AI 商品短片拆解</strong></span></a>
+    <nav class="main-nav" aria-label="课程导航">
+      <a href="index.html">课程目录</a>
+      <a href="chapter-0.html" aria-current="page">第零章：人物参考图</a>
+      <a href="chapter-1.html">第一章：商品短片</a>
+    </nav>
+    <a class="header-cta" href="chapter-1.html">直接进入第一章 <span aria-hidden="true">↘</span></a>
+  </header>
+  <main id="main">
+<section class="chapter-zero" id="top" aria-labelledby="chapter0-title">
+      <div class="page-wrap">
+        <div class="section-heading chapter-heading">
+          <div><p class="section-kicker">课程顺序 · 第零章</p><h1 id="chapter0-title">先把人物参考图<br><em>做成可复用的资产</em></h1></div>
+          <p class="section-intro">本章单独介绍人物参考图：两视图、三栏、六格分别适合什么任务，怎样检查服装与脸部，并把提示词和来源登记成可复用资产。</p>
+        </div>
+        <div class="chapter-reason"><span class="reason-mark" aria-hidden="true">WHY</span><p><strong>为什么脸要放大？</strong>按用户采用的实践经验，把服装和大脸分区便于分别检查。脸在全身格里的像素占比低，后续放大会糊；因此单独留大幅肖像提供清楚的身份参考。效果仍要按具体图像质量检查。人物图是 AI 生成示例，不能当作真实人物的身份或细节证明。</p></div>
+        <div class="reference-example-grid">
+          <article class="reference-example">
+            <div class="example-copy"><p class="comparison-index">示例 A <span>三栏服装记录</span></p><h2>前面看穿搭，<br>背面核结构，脸部单独看清</h2><p>图中正面与背面全身均裁去头部；使用这套版式时，背面也可按需要保留后脑和头发，但不得遮挡服装结构；第三栏用足够大的清晰肖像锁定脸部。</p><small>Alex 候选旧版归档参考 · AI 生成候选，不是 4K 原生细节文件。</small></div>
+            <figure class="example-image"><button class="image-zoom" type="button" data-image="assets/Alex_旧版三栏候选示例_4K重建.png" data-caption="Alex 短发健身女孩的旧版三栏参考。归档候选示例；ultrarealistic_4K 文件是 AI 细节重建副本，并非原生真实 4K 拍摄素材。" aria-label="放大查看 Alex 旧版三栏服装参考"><img src="assets/Alex_旧版三栏候选示例_4K重建.png" alt="Alex 候选三栏参考：左侧正面与中间背面全身服装视图都裁去头部，右侧是较大的正面脸部肖像。" loading="lazy"></button><figcaption>正面无头｜示例背面无头（未来可按需留发）｜右侧大脸肖像</figcaption></figure>
+          </article>
+          <article class="reference-example">
+            <div class="example-copy"><p class="comparison-index">示例 B <span>六格角色参考</span></p><h2>上排记服装角度，<br>下排记脸部角度</h2><p>上排为正面、背面、侧面全身服装视图；正面与侧面不出现头脸，背面可按需要保留后脑和头发但不得遮挡服装。下排用三个大头像展示正脸、左 3/4 脸和右侧脸。六格都是同一位角色。</p><small>Alex 短发健身女孩的六格旧版候选 · 仅限本课程页示例展示。</small></div>
+            <figure class="example-image"><button class="image-zoom" type="button" data-image="assets/Alex_旧版六格候选示例.png" data-caption="Alex 短发健身女孩的六格旧版归档候选示例：上三格服装视图，下三格清晰脸部视图。该候选仍为 draft。" aria-label="放大查看 Alex 六格人物参考"><img src="assets/Alex_旧版六格候选示例.png" alt="Alex 候选六格参考：上排为正面、背面和侧面全身服装图，示例上排的正面、背面和侧面都裁去头部；下排是同一位短发女性的正脸、左四分之三侧脸和右侧脸大头像。" loading="lazy"></button><figcaption>上排：全身服装三视图｜下排：大尺寸脸部三角度</figcaption></figure>
+          </article>
+        </div>
+        <div class="asset-rule-grid">
+          <article><span>01</span><h2>同一角色，可以有多套服装资产</h2><p>先给人物一个稳定的 role ID。每换一套服装，就单独做一组三栏或六格服装参考，分别保存和记录；不要把不同服装拼成身份混乱的一张图。不同服装是不同角色资产版本，同属一个人物 ID。</p></article>
+          <article><span>02</span><h2>每次生成后先做失败检查</h2><p>看脸是否够大够清楚、各格是否为同一人；正面是否意外露头；背面头发是否挡住服装；全身是否截掉鞋或袖口；六格边界是否清楚；服装颜色、鞋袜、配件是否串格。失败就改提示词或拆成单张重做，不要把错图登记成可复用资产。</p></article>
+          <article><span>03</span><h2>保存原图，并登记来源与状态</h2><p>保留未改动生成原图，文件名标版本与服装；另存提示词、生成工具、日期、参考图、来源和已知权限。项目使用时记录 role ID、服装版本、输入文件路径及哈希。候选标为 draft；只有明确批准后才进入 Canonical。</p></article>
+        </div>
+        <div class="prompt-lessons"><div><p class="section-kicker">三种可复制提示词</p><h2>按要解决的问题选版式</h2><p>先替换方括号内容，再附上同一人物的身份参考。提示词只约束生成方向；交付前仍须逐格检查。</p></div><div class="prompt-card-list">
+  <details class="prompt-fold prompt-course" open>
+    <summary>两视图：正面与背面服装记录</summary>
+    <div class="prompt-content"><p>只记录服装前后；需要稳定脸部时，另附独立的大幅身份肖像参考。</p><pre>请根据所附 [身份主参考] 制作 [角色 ID] 的 [outfit_id]（[服装名称及材质/颜色/缝线/配饰]）两视图参考表。只出现同一位成年虚构人物、同一套衣服与同一体型。4:3 横版，[目标像素尺寸]，浅灰无缝棚拍背景，柔和中性光。
+左栏：正面全身服装视图，从颈部自然淡出，完全不显示头、脸或模糊脸；领口、袖口、腰线、裤脚及 [鞋履或赤脚要求] 完整可见。
+右栏：同一套服装的背面全身视图，比例和光线一致，背面剪裁与鞋跟/脚部清楚。可按需要保留后脑和头发以记录发型，但头发不得遮住领口、帽子、拉链或背部剪裁；无头背面也可接受。
+不要额外人物、额外服装、第三个分栏、文字、水印、浮空头、残留五官、被裁掉的脚或互相矛盾的服装细节。脸部身份另用大幅肖像参考锁定，不从小全身脸放大。
+目标像素尺寸需在所用工具设置和导出文件中另行核对；提示词里写尺寸不保证工具实际输出该尺寸，也不会凭空补出真实微观细节。</pre><button class="copy-button" type="button">复制两视图提示词</button><span class="copy-status" role="status" aria-live="polite"></span></div>
+  </details>
+  <details class="prompt-fold prompt-course">
+    <summary>三栏：正背服装 + 大脸</summary>
+    <div class="prompt-content"><p>正面和背面各记一套服装，大脸肖像独占一栏，不从全身小脸裁切放大。</p><pre>请根据所附 [身份主参考] 与 [本套服装参考]，制作 [角色 ID] 的 [outfit_id] 三栏人物参考表。4:3 横版，[目标像素尺寸]；浅灰无缝棚拍背景、柔和中性光。三栏均为同一位成年虚构人物、同一发型肤色体型、同一套 [服装名称及细节]。
+左栏：正面全身服装，从颈部自然淡出，不出现头或脸；完整显示领口到 [鞋履或赤脚要求]。
+中栏：背面全身服装，可按需要显示后脑和头发，但不能遮住衣服结构；正背的颜色、版型、配饰一致。
+右栏：独立拍摄的大幅清晰头肩肖像，展示同一人的脸、发际线、眼睛、皮肤与发型；人脸占据这一整栏的主要空间，不是从全身小脸裁切放大。
+不添加其他人、其他衣服、文字、水印、浮空头、残留五官或缺失的手脚；保持自然可信的解剖和布料纹理。目标像素尺寸需另在生成工具和导出文件中核对，不能只凭“4K”字样推定实际分辨率或真实细节。</pre><button class="copy-button" type="button">复制三栏提示词</button><span class="copy-status" role="status" aria-live="polite"></span></div>
+  </details>
+  <details class="prompt-fold prompt-course">
+    <summary>六格：三角度服装 + 三角度人脸</summary>
+    <div class="prompt-content"><p>上排负责全身穿搭角度；下排用三张清楚的大脸参考稳定身份。</p><pre>请根据所附 [身份主参考] 与 [本套服装参考]，制作 [角色 ID] 的 [outfit_id] 六格参考表。4:3 横版，[目标像素尺寸]，严格 3 列 × 2 行，浅灰无缝棚拍背景、柔和中性光。六格只呈现同一位成年虚构人物、同一套 [服装名称及细节]、同一体型发型肤色。
+上排为服装全身：左为正面，颈部以上自然淡出，完全无头无脸；中为背面，可按需要显示后脑和头发，但不能遮住领口、帽子或背部结构；右为侧面，颈部以上自然淡出、无脸。三格都要完整显示脚与 [鞋履或赤脚要求]，衣服颜色、版型、缝线、配饰互相一致。
+下排为同一人的大幅清晰头肩肖像：正脸、左 3/4 脸、右侧脸。每张脸都足够大，可检查五官、发际线和皮肤细节；三张不是同一照片机械旋转，也不是从小全身脸放大。
+不要文字、水印、额外人物、额外衣服、错格、浮空头、残留五官或裁掉的脚。逐格检查正面无头、背面头发不挡衣服、侧面无脸、脚部完整，三张大脸身份一致且足够清晰。目标像素尺寸需另在工具和导出文件中确认；AI 放大或重绘带来的纹理是合成细节。</pre><button class="copy-button" type="button">复制六格提示词</button><span class="copy-status" role="status" aria-live="polite"></span></div>
+  </details>
+</div>
+
+        </div></div>
+        <p class="example-rights-note"><strong>示例来源与状态：</strong>Alex（CAND-FIT-ALEX-001）仍为 draft 候选，原图来自「旧版与待删除复核」归档目录；本教程把 Alex 作为独立于 Bobby 的 AI 生成版式示例。CJ 已授权本课程页面在公开 GitHub 仓库中展示这些示例图片，授权仅限此页面，不授予 Canonical、跨项目、开放素材库或一般商业使用资格。文件名含 ultrarealistic_4K 的文件是 3840×2880 AI 细节重建副本，合成纹理不能代表真实拍摄细节。</p>
+      </div>
+        <div class="chapter-next-links"><a class="text-link" href="index.html">← 回课程目录</a><a class="button button-light" href="chapter-1.html">进入第一章：商品短片 <span aria-hidden="true">↗</span></a></div>
+    </section>
+  </main>
+<footer class="site-footer page-wrap">
+    <a class="wordmark footer-wordmark" href="#top"><span class="wordmark-mark" aria-hidden="true">B<span>/</span>V</span><span class="wordmark-copy">Bobby × VIGOR<strong>免费公开课程</strong></span></a>
+    <p>素材来源、制作阶段和证据边界均以项目记录为准；影片尚未完成完整人工试听。</p>
+    <a href="#top" class="back-top">回到顶部 ↑</a>
+  </footer>
+<dialog class="image-dialog" aria-label="图片放大查看">
+    <div class="dialog-toolbar"><p class="dialog-caption">查看项目图片</p><button class="dialog-close" type="button" aria-label="关闭图片查看">关闭 <span aria-hidden="true">×</span></button></div>
+    <img class="dialog-image" alt="">
+  </dialog>
+  <noscript><p class="noscript-note">图片放大和复制提示词需要开启 JavaScript；页面正文和影片控制仍可使用。</p></noscript>
+</body>
+</html>
