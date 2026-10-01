@@ -1,6 +1,6 @@
-# Bobby × VIGOR 教程 Landing Page
+# Learn：人物参考、商品短片与 Golden Laksa 实验
 
-本目录是一份已公开的静态中文教程。线上入口：[learn.cj-chan.work](https://learn.cj-chan.work/)；源代码：[GitHub 公开仓库](https://github.com/CJchan09/cj-digital-human-product-video-course)。网站分为三页：`index.html` 是课程目录，`chapter-0.html` 独立讲人物参考图资产，`chapter-1.html` 直接从商品短片主视觉开始，按无牌旧案、VIGOR 生成片、V2 修订版展示三条完整影片，并保留照片对照和五步流程。无牌旧案与后两片属于不同 SKU。本地预览服务器只监听回环地址；GitHub Pages 与自定义子域名的发布验收见 `01_本地验收记录.md`。本目录未附开放素材再利用许可；公开仓库展示授权仅限当前课程页面。
+本目录是一份已公开的静态中文教程。线上入口：[learn.cj-chan.work](https://learn.cj-chan.work/)；源代码：[GitHub 公开仓库](https://github.com/CJchan09/cj-digital-human-product-video-course)。网站分为四页：`index.html` 是课程目录，`chapter-0.html` 独立讲人物参考图资产，`chapter-1.html` 直接从商品短片主视觉开始，按无牌旧案、VIGOR 生成片、V2 修订版展示三条完整影片，并保留照片对照和五步流程。无牌旧案与后两片属于不同 SKU。`chapter-2.html` 是 Golden Laksa 学习与实验，展示手机实拍、Genjutsu 入口编辑、Seedance 汤浪、CapCut 华语旁白与25秒前后对比。本地预览服务器只监听回环地址；GitHub Pages 与自定义子域名的发布验收见 `01_本地验收记录.md`。本目录未附开放素材再利用许可；公开仓库展示授权仅限当前课程页面。
 
 ## 本地预览
 
@@ -26,10 +26,16 @@ node .\preview-server.mjs
 
 ## 文件
 
-- `index.html`、`chapter-0.html`、`chapter-1.html`：课程目录与两章正文。
-- `styles.css`、`script.js`：三页共用视觉样式与放大图片、复制提示词、影片互斥播放交互。
+- `index.html`、`chapter-0.html`、`chapter-1.html`、`chapter-2.html`：课程目录与三章正文。
+- `styles.css`、`script.js`：四页共用视觉样式与放大图片、复制提示词、影片互斥播放交互。
 - `assets/`：教程页面所用媒体副本。源文件留在原项目位置。
 - `ASSET_SOURCES.md`：素材来源与用途。
 - `角色资产_manifest.md`：页面使用的人物参考图项目快照与授权边界。
 - `00_制作计划.md`：经审阅的制作计划。
 - `01_本地验收记录.md`：实际浏览器检查、技术验证与未验证事项。
+
+## 第2章与原版品牌 Logo（2026-10-01）
+
+第2章保留采用片、原片剪辑与 Seedance 对照，附实际提示词、五段叙事与六个制作步骤，以及音乐和台词的学习反思。原片由 CJ 的女儿帮忙拍摄；下次先设计镜头、拍更稳的素材，再用相同方法对比。当前华语主观口音和食材、品牌读法仍需人工试听。
+
+课程四页的页首、页尾及favicon均使用原版绿红CJ Logo的透明原件副本，未改色、变形。新增素材和说明在 assets/golden-laksa/，没有开放素材再利用或克隆许可。
