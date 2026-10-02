@@ -1,6 +1,6 @@
 # Learn：人物参考、商品短片与 Golden Laksa 实验
 
-本目录是一份已公开的静态中文教程。线上入口：[learn.cj-chan.work](https://learn.cj-chan.work/)；源代码：[GitHub 公开仓库](https://github.com/CJchan09/cj-digital-human-product-video-course)。网站分为四页：`index.html` 是课程目录，`chapter-0.html` 独立讲人物参考图资产，`chapter-1.html` 直接从商品短片主视觉开始，按无牌旧案、VIGOR 生成片、V2 修订版展示三条完整影片，并保留照片对照和五步流程。无牌旧案与后两片属于不同 SKU。`chapter-2.html` 是 Golden Laksa 学习与实验，展示手机实拍、Genjutsu 入口编辑、Seedance 汤浪、CapCut 华语旁白与25秒前后对比。本地预览服务器只监听回环地址；GitHub Pages 与自定义子域名的发布验收见 `01_本地验收记录.md`。本目录未附开放素材再利用许可；公开仓库展示授权仅限当前课程页面。
+本目录是一份已公开的静态中文教程。线上入口：[learn.cj-chan.work](https://learn.cj-chan.work/)；源代码：[GitHub 公开仓库](https://github.com/CJchan09/cj-digital-human-product-video-course)。网站分为四页：`index.html` 是课程目录，`chapter-0.html` 独立讲人物参考图资产，`chapter-1.html` 直接从商品短片主视觉开始，按无牌旧案、VIGOR 生成片、V2 修订版展示三条完整影片，并保留照片对照和五步流程。无牌旧案与后两片属于不同 SKU。`chapter-2.html` 是 Golden Laksa 学习与实验，展示手机实拍、Genjutsu 入口编辑、Seedance 汤浪、ElevenLabs v3 华语旁白与25秒前后对比，并保留此前CapCut试听与导出过程。本地预览服务器只监听回环地址；GitHub Pages 与自定义子域名的发布验收见 `01_本地验收记录.md`。本目录未附开放素材再利用许可；公开仓库展示授权仅限当前课程页面。
 
 ## 本地预览
 
@@ -39,3 +39,9 @@ node .\preview-server.mjs
 第2章保留采用片、原片剪辑与 Seedance 对照，附实际提示词、五段叙事与六个制作步骤，以及音乐和台词的学习反思。原片由 CJ 的女儿帮忙拍摄；下次先设计镜头、拍更稳的素材，再用相同方法对比。当前华语主观口音和食材、品牌读法仍需人工试听。
 
 课程四页的页首、页尾及favicon均使用原版绿红CJ Logo的透明原件副本，未改色、变形。新增素材和说明在 assets/golden-laksa/，没有开放素材再利用或克隆许可。
+
+## 第2章 V8 旁白更新（2026-10-02）
+
+CJ确认将A独立广告与B左右对比更新为ElevenLabs v3（eleven_v3）整段新旁白，使用Liam — Energetic, Social Media Creator，食材句改为“米粉配芙蓉特有的濑粉”。两条影片共用新版AAC音轨，保留V7画面、简单配乐与音效；新版旁白没有变速，品牌段位于20.41–23.92秒。旧原片剪辑与Seedance播放器保持不变，A、B媒体URL加音轨版本参数以刷新缓存。
+
+课程保留Fraser／Holden试听、CapCut免费WAV导出、CJ反馈读法不理想、ElevenLabs v3整段重做的实验历史。V8本地25秒完整播放检查通过；发音与听感以人工试听为准，不把技术检查写成听音认证。
